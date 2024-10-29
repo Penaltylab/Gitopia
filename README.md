@@ -23,11 +23,13 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.profile
 source .profile
 ```
 
-# Clone project repository
+**Clone project repository**
+```
 cd && rm -rf gitopia
 git clone https://github.com/gitopia/gitopia
 cd gitopia
 git checkout v4.0.0
+```
 
 # Build binary
 make install
