@@ -53,8 +53,11 @@ gitopiad config chain-id gitopia
 gitopiad config keyring-backend file
 gitopiad config node tcp://localhost:11357
 ```
-# Initialize the node
+
+**Initialize the node**
+```
 gitopiad init "Your Node Name" --chain-id gitopia
+```
 
 # Download genesis and addrbook files
 curl -L https://snapshots.nodejumper.io/gitopia/genesis.json > $HOME/.gitopia/config/genesis.json
